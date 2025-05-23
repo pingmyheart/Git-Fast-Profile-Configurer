@@ -33,7 +33,7 @@ always reflect the correct profile.
 1. **Make required directories**:
 
 ```shell
-mkdir -p ~/.kube ~/.git-configurer
+mkdir -p ~/.programs ~/.git-configurer
 ```
 
 2. **Clone the repository**:
