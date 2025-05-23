@@ -33,13 +33,13 @@ always reflect the correct profile.
 1. **Make required directories**:
 
 ```shell
-mkdir -p ~/.programs ~/.git-configurer
+mkdir -p ~/programs ~/.git-configurer
 ```
 
 2. **Clone the repository**:
 
 ```shell
-cd ~/.programs
+cd ~/programs
 git clone https://github.com/pingmyheart/Git-Fast-Profile-Configurer.git
 ```
 
