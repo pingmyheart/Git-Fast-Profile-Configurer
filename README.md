@@ -18,9 +18,10 @@ with incorrect credentials, leading to potential confusion and misattribution.
 
 **Git-Fast-Profile-Configurer** offers a streamlined solution:
 
-* 🚀 Quick Profile Switching: Easily toggle between different Git profiles without manual edits.
-* 🧩 User-Friendly Interface: A straightforward bash script that simplifies the configuration process.
-* ⏱️ Enhanced Productivity: Reduce context-switching overhead and maintain consistent commit histories across projects.
+* 🚀 **Quick Profile Switching**: Easily toggle between different Git profiles without manual edits.
+* 🧩 **User-Friendly Interface**: A straightforward bash script that simplifies the configuration process.
+* ⏱️ **Enhanced Productivity**: Reduce context-switching overhead and maintain consistent commit histories across
+  projects.
 
 This tool is ideal for developers, freelancers, and anyone juggling multiple Git identities, ensuring that your commits
 always reflect the correct profile.
