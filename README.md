@@ -70,8 +70,7 @@ profiles:
 git-profile-configurer --list
 ```
 
-4.
-5. Run the command to configure a profile:
+4. Run the command to configure a profile:
 
 ```shell
 git-profile-configurer -p personal
