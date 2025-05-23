@@ -19,7 +19,7 @@
 1. **Make required directories**:
 
 ```shell
-mkdir -p ~/.kube ~/.programs
+mkdir -p ~/.kube ~/.git-configurer
 ```
 
 2. **Clone the repository**:
@@ -36,3 +36,22 @@ sudo ln -s ~/programs/Git-Fast-Profile-Configurer/git-profile-configurer.bash /u
 ```
 
 ## Usage
+
+1. Create `config.yaml` file inside `~/.git-configurer` directory.
+2. Add the following content to `config.yaml` file with your customizations:
+
+```yaml
+profiles:
+  personal:
+    username: "my-username"
+    email: "my-email@email.it"
+  work:
+    username: "my-work-username"
+    email: "my-work-email@email.it"
+```
+
+3. Run the command:
+
+```shell
+git-profile-configurer -p personal
+```

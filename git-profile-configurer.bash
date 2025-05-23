@@ -179,7 +179,7 @@ log_debug "$_table_credentials"
 
 if [[ "$SHOW_CONF" == "TRUE" ]]; then
   # shellcheck disable=SC2059
-  printf "${_table_credentials[@]}" | xargs -n4 | column -t -c 50
+  printf "${_table_credentials[@]}" | xargs -n3 | column -t -c 50
   graceful_exit
 fi
 
