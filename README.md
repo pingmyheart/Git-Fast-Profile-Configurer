@@ -64,7 +64,14 @@ profiles:
     email: "my-work-email@email.it"
 ```
 
-3. Run the command:
+3. Run the command to list available profiles:
+
+```shell
+git-profile-configurer --list
+```
+
+4.
+5. Run the command to configure a profile:
 
 ```shell
 git-profile-configurer -p personal
